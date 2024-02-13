@@ -65,12 +65,16 @@
 
     .card__social-links-button {
       background-color: #333333;
+      text-decoration: none;
       border: none;
       border-radius: 0.5rem;
       height: 45px;
       color: white;
       font-size: 0.875rem;
       font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .card__social-links-button:not(:last-child) {
